@@ -1,0 +1,242 @@
+body{
+   background-image: url(background.jpg); 
+   background-repeat: no-repeat; 
+   background-size: cover; /* Adjust this as needed */
+   background-attachment: fixed;
+}
+.col-1{
+  background-color: rgb(62, 50, 74);
+}
+
+.col-1 a{
+   
+   z-index: 1;
+   text-decoration: none;
+   font-family: "Roboto", sans-serif;
+    font-size: 23px;
+    padding: 0.4rem;
+   color: white;
+}
+
+ 
+ .col-1 a:hover {
+   font-size: 25px; /* Increase font size on hover */
+   color: rgb(151, 108, 180); /* Change text color to green on hover */
+ }
+
+
+.col-md-9 h1 {
+   font-size: 60px;
+   font-weight:600;
+   color:rgb(181, 98, 202);
+
+   font-family: "Kaushan Script", sans-serif;
+   font-style: italic;
+}
+
+
+.home{
+   padding-top: 60px;
+}
+.about{
+   padding-top: 250px;
+   padding-bottom: 250px;
+
+}
+.skill{
+   padding-top: 150px;
+   padding-bottom: 250px;
+
+}
+.project{
+   padding-top: 150px;
+   padding-bottom: 250px;
+
+}
+
+.education{
+   padding-top: 90px;
+   padding-bottom: 150px;
+
+}
+
+.contact{
+  padding-top: 50px;
+  padding-bottom: 150px;
+
+}
+
+.text{
+   font-size: 33px;
+   font-family:  sans-serif;
+    width: auto;
+    color:rgb(255, 255, 255);
+    line-height: 1.5;
+    word-spacing: 3px;
+   padding-top: 48px;
+}
+
+
+.but{
+   margin-left: 40%;
+   margin-top: 5%;
+   background-color: rgb(143, 74, 183);
+   font-style:"Kaushan Script", sans-serif ;
+   color: black;
+   font-size: 20px;
+   
+}
+.but:hover {
+   font-size: 22px; /* Increase font size on hover */
+   color: rgb(171, 244, 220); /* Change text color to green on hover */
+ }
+ .col-md-8 h1{
+   color:rgb(31, 130, 134);
+ }
+
+ .col-md-8 p{
+   color:rgb(255, 255, 255);
+   font-size: 20px;
+   font-family:  sans-serif;
+ }
+
+.social li {
+  
+  display: inline;
+ 
+  margin-left: 80px;
+}
+
+
+.social i {
+   padding: 1rem;
+   font-size: 5rem;
+   transition: all 250ms;
+   transition: transform 0.3s;
+}
+
+.social i:hover {
+   
+   transform: translateY(-5px);
+ }
+
+
+ .S_head{
+  color: rgb(31, 130, 134);
+  
+ }
+
+ 
+
+ .col-lg-4 h4{
+   padding: 20px;
+   color:rgb(31, 130, 134)
+ }
+
+ .col-lg-4 h5{
+   color:azure
+ }
+
+
+ .col-lg-6{
+   padding-top:70px;
+ }
+
+ .col-lg-6 h3{
+   padding: 80px;
+   color:rgb(240, 235, 235);
+   font-size: 30px;
+  
+   font-weight: 180;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+ .git{
+   padding-left:120px;
+   padding-top:5px;
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   font-size: 20px;
+   
+ }
+
+ .col-lg-6 h3{
+   padding: 20px;
+   color:rgb(255, 255, 255);
+   font-family: sans-serif;
+   font-weight: 200;
+ }
+
+ .col-lg-6 h6{
+  padding-left: 5%;
+   color:rgb(211, 209, 209);
+   font-family: sans-serif;
+   font-weight: 200;
+ }
+
+ .logo{
+   padding-left: 150px;
+   width:100;
+   height:100;
+ }
+
+ .formgroup{
+  margin-top: 40px;
+  
+ }
+
+
+ .form-control{
+  margin: 30px;
+  height: 60px;
+  border-radius: 31px;
+  width: 480px;
+  padding-left: 20px;
+  font-family: "Open Sans", "sans-serif";
+ }
+
+ .form-control1 {
+  padding-top: 1px;
+  margin: 25px;
+  height: 60px;
+  border-radius: 31px;
+  height: 200px;
+  width: 480px;
+ 
+  padding-left: 20px;
+  font-family: "Open Sans", "sans-serif";
+ }
+
+ 
+.talk{
+  padding-left: 180px;
+}
+
+.sub{
+  width:150px;
+  
+  color: white;
+  font-weight: 100;
+
+
+  
+  border-radius: 31px;
+  background-color: rgb(151, 108, 180);
+ 
+  cursor: pointer;
+  margin-left: 50%;
+}
+
+ .footer{
+  background-color: #a13a3aad;
+  padding-top: 30px;
+  padding-bottom: 150px;
+  height:20px;
+  
+ }
+
+ .sub:hover{
+  transform: scale(1.1);
+  background-color: rgb(111, 94, 123);
+ }
+
